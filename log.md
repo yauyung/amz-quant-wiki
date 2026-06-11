@@ -5,9 +5,19 @@
 > 操作类型：ingest, update, query, lint, create, archive, delete
 > 超过 500 条时轮转：重命名为 log-YYYY.md，开启新文件。
 
-## [2026-06-11] create | Wiki 初始化
-- 域名：AMZ Quant — AI + Quantitative Trading
-- 两条主线：AI（模型/Agent/训练/推理/对齐）+ Quant（因子/策略/风控/回测/数据）
-- 结构：raw/ entities/ concepts/ comparisons/ queries/
-- Schema 已定义，tag 分类已建立
-- 文件：SCHEMA.md, index.md, log.md
+## [2026-06-11] ingest | 第一批 4 个 sources 批量注入
+- 来源：amz quant 美股多因子路线图、Claude Code 审计报告、TradingAgents 架构分析、LLM 交易 Agent 论文精读
+- 创建/更新页面：
+  - 概念/amz-quant-core-doctrine.md
+  - 概念/validation-ladder.md
+  - 概念/agent-boundary.md
+  - 概念/duration-mixing.md
+  - 概念/survivorship-bias.md
+  - Quant/core-factors.md
+  - Quant/equity-factor-roadmap.md
+  - AI/multi-agent-quant-system.md
+  - 实体/tradingagents.md
+  - 实体/freqtrade.md
+  - 实体/quant-equity.md
+  - 交叉/llm-trading-agent-papers.md
+- 索引更新：index.md（14 页）
